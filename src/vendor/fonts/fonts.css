@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Oswald-r';
+  font-display: swap;
+  src: url('./Oswald/Oswald-regular.woff') format("woff"),
+  url('./Oswald/Oswald-regular.ttf') format("ttf")
+}
+
+@font-face {
+  font-family: 'Oswald-m';
+  font-display: swap;
+  src: url('./Oswald/Oswald-medium.woff') format("woff"),
+  url('./Oswald/Oswald-medium.ttf') format("ttf")
+}
+
+@font-face {
+  font-family: 'Garamond-r';
+  font-display: swap;
+  src: url('./Garamond/Garamond-regular.woff') format("woff"),
+  url('./Garamond/Garamond-regular.ttf') format("ttf")
+}
+
+@font-face {
+  font-family: 'Garamond-m';
+  font-display: swap;
+  src: url('./Garamond/Garamond-medium.woff') format("woff"),
+  url('./Garamond/Garamond-medium.ttf') format("ttf")
+}

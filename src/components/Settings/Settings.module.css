@@ -1,0 +1,115 @@
+
+.settings {
+  width: 100%;
+  background: #FCFBF7;
+}
+
+.settings__title {
+  font-family: 'Oswald-r', 'Helvetica', sans-serif;
+  padding-bottom: 40px;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.settings__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #CECCCA;
+}
+
+input {
+  font-family: 'Garamond-r', 'Helvetica', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  background: #E3E1DE;
+  border-radius: 20px;
+  height: 40px;
+  margin-bottom: 12px;
+  outline: none;
+  border: 0;
+}
+
+input:focus {
+  border: 2px solid #141414;
+} 
+
+label {
+  font-family: 'Garamond-r', 'Helvetica', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-left: 16px;
+  padding-bottom: 4px;
+}
+
+.label__img::after {
+  content: '';
+  background: url('../../img/img.svg')no-repeat;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 35px;
+  right: 10px;
+}
+
+.label__pass::after {
+  content: '';
+  background: url('../../img/pass.svg')no-repeat;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 35px;
+  right: 10px;
+}
+
+.settings__btn {
+  font-family: 'Garamond-r', 'Helvetica', sans-serif;
+  cursor: pointer;
+  margin-top: 28px;
+  font-size: 20px;
+  padding: 8px 16px;
+  line-height: 24px;
+  background: #141414;
+  color: #FCFBF7;
+  max-width: 120px;
+  outline: none;
+  border: 0;
+  border-radius: 100px;
+  align-self: flex-end;
+}
+
+.settings__logout {
+  max-width: 140px;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-family: 'Garamond-m', 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #E51A1A;
+  cursor: pointer;
+}
+
+textarea {
+  font-family: 'Garamond-r', 'Helvetica', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  background: #E3E1DE;
+  border-radius: 20px;
+  height: 136px;
+  margin-bottom: 12px;
+  outline: none;
+  resize: none;
+  border: 0;
+}
